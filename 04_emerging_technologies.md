@@ -1,4 +1,4 @@
-# Internet of Things by Czarina Fombuena 
+# Internet of Things by Czarina Fombuena
 
 ## Purpose
 
@@ -6,58 +6,33 @@ The Internet of Things (IoT) is a network of physical devices such as appliances
 
 The purpose of IoT is pretty simple. It is meant to make life easier, work more efficient, and systems smarter. By connecting everyday things to the internet, we can automate tasks, make decisions based on real-time data, and even fix problems before they happen. Whether it is adjusting your home temperature while you are out, predicting when a machine needs a repair, or helping traffic flow better, IoT takes regular “things” and turns them into quiet, behind-the-scenes helpers. At the end of the day, the main goal is to use that connectivity and automation to make everything run smoother and smarter, both at home and on a much bigger scale.
 
-
-
-- **Reference**: 
- _Source: IBM. (2023, May 12). What is the Internet of Things (IoT)? IBM THINK. Retrieved August 15, 2025  from https://www.ibm.com/think/topics/internet-of-things 
-
-
+- **Reference**:  
+  _Source: IBM. (2023, May 12). What is the Internet of Things (IoT)? IBM THINK. Retrieved August 15, 2025 from https://www.ibm.com/think/topics/internet-of-things_
 
 ## Usage
 
-
-
 - **In Education**:  
-
   IoT enhances education by making learning more accessible, interactive, and collaborative. It allows students and teachers to connect in real time, extending the classroom into digital spaces. Even after the pandemic, IoT continues to boost lesson engagement and streamline group projects. Importantly, it equips students with skills and tools they will need in a connected future.
 
-
-
-- **Reference**: 
-_Source: Arduino. (2025). The role of the IoT in education. Arduino. Retrieved August 15, 2025, from https://www.arduino.cc/education/the-role-of-the-iot-in-education 
-
-
+  - **Reference**:  
+    _Source: Arduino. (2025). The role of the IoT in education. Arduino. Retrieved August 15, 2025, from https://www.arduino.cc/education/the-role-of-the-iot-in-education_
 
 - **In IT**:  
-
   In the IT industry, IoT is widely used for smart infrastructure, predictive maintenance, supply chain monitoring, and data-driven decision-making. Businesses employ IoT systems to gather massive amounts of real-time data from devices, enabling automation and improving operational efficiency.
 
-- **Reference**: 
- _Source: IBM. (2023, May 12). What is the Internet of Things (IoT)? IBM THINK. Retrieved August 15, 2025, from https://www.ibm.com/think/topics/internet-of-things
-
-
+  - **Reference**:  
+    _Source: IBM. (2023, May 12). What is the Internet of Things (IoT)? IBM THINK. Retrieved August 15, 2025, from https://www.ibm.com/think/topics/internet-of-things_
 
 ## Examples
 
-
-
 - **In Education**:  
-
   RFID-Based Smart Student Arrival System – Shenzhen Fuqiao Senior High School uses an NFC-enabled ID card system to automatically log student arrivals. The data is processed in real-time and displayed in a campus management interface for administrators, teachers, parents, and students. Beyond attendance tracking, it provides data insights, improves communication, and enhances administrative efficiency.
 
-
-- **Reference**:
- _Source: Ye, X., Peng, H., \& Liao, H. (2024). Research and practice of IoT technology based on smart campus. Frontiers in Computing and Intelligent Systems, 10(1). Retrieved August 15, 2025, from https://www.scribd.com/document/845479611/Research-and-Practice-of-IoT-Technology-based-on-S?utm\_source=chatgpt.com
-
-
+  - **Reference**:  
+    _Source: Ye, X., Peng, H., & Liao, H. (2024). Research and practice of IoT technology based on smart campus. Frontiers in Computing and Intelligent Systems, 10(1). Retrieved August 15, 2025, from https://www.scribd.com/document/845479611/Research-and-Practice-of-IoT-Technology-based-on-S?utm_source=chatgpt.com_
 
 - **In IT**:  
-
   Smart Factory Automation – Companies like Siemens use IoT sensors on manufacturing equipment to monitor performance, predict maintenance needs, and reduce downtime. These IoT-enabled systems allow factories to operate more efficiently, improve product quality, and cut costs.
 
-
-- **Reference**: 
-  _Source: Siemens. (2024). How IoT is transforming manufacturing. Siemens Digital Industries. Retrieved August 15, 2025, from https://new.siemens.com/global/en/company/stories/industry/how-iot-is-transforming-manufacturing.html 
-
-
-
+  - **Reference**:  
+    _Source: Siemens. (2024). How IoT is transforming manufacturing. Siemens Digital Industries. Retrieved August 15, 2025, from https://new.siemens.com/global/en/company/stories/industry/how-iot-is-transforming-manufacturing.html_
