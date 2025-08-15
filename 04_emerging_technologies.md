@@ -1,14 +1,8 @@
 # Internet of Things by Czarina Fombuena 
 
-
-
 ## Purpose
 
-
-
 The Internet of Things (IoT) is a network of physical devices such as appliances, vehicles, wearables, and industrial machines that have sensors, software, and network connections so they can collect, share, and act on data. These “smart objects” can be as simple as a thermostat in your house or as complex as smart cars and factory equipment, and they are able to talk to each other and other internet-connected devices. IoT is used in many ways, from monitoring conditions on farms and managing traffic in cities to controlling machines in factories and keeping track of inventory in warehouses. Some even see it as the foundation for entire smart cities in the future.
-
-
 
 The purpose of IoT is pretty simple. It is meant to make life easier, work more efficient, and systems smarter. By connecting everyday things to the internet, we can automate tasks, make decisions based on real-time data, and even fix problems before they happen. Whether it is adjusting your home temperature while you are out, predicting when a machine needs a repair, or helping traffic flow better, IoT takes regular “things” and turns them into quiet, behind-the-scenes helpers. At the end of the day, the main goal is to use that connectivity and automation to make everything run smoother and smarter, both at home and on a much bigger scale.
 
@@ -30,7 +24,7 @@ The purpose of IoT is pretty simple. It is meant to make life easier, work more 
 
 
 - **Reference**: 
- _Source: Arduino. (2025). The role of the IoT in education. Arduino. Retrieved August 15, 2025, from https://www.arduino.cc/education/the-role-of-the-iot-in-education 
+_Source: Arduino. (2025). The role of the IoT in education. Arduino. Retrieved August 15, 2025, from https://www.arduino.cc/education/the-role-of-the-iot-in-education 
 
 
 
@@ -43,7 +37,7 @@ The purpose of IoT is pretty simple. It is meant to make life easier, work more 
 
 
 
-## Example
+## Examples
 
 
 
