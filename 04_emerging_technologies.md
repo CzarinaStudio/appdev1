@@ -6,8 +6,6 @@ Purpose
 
 
 
-The Purpose of Internet of Things 
-
 The Internet of Things (IoT) is a network of physical devices such as appliances, vehicles, wearables, and industrial machines that have sensors, software, and network connections so they can collect, share, and act on data. These “smart objects” can be as simple as a thermostat in your house or as complex as smart cars and factory equipment, and they are able to talk to each other and other internet-connected devices. IoT is used in many ways, from monitoring conditions on farms and managing traffic in cities to controlling machines in factories and keeping track of inventory in warehouses. Some even see it as the foundation for entire smart cities in the future.
 
 
@@ -21,8 +19,6 @@ Reference: IBM. (2023, May 12). What is the Internet of Things (IoT)? IBM THINK.
 Usage
 
 
-
-The Usage of Internet of Things – Why IoT Matters in Education
 
 In Education 
 
@@ -43,8 +39,6 @@ Reference: IBM. (2023, May 12). What is the Internet of Things (IoT)? IBM THINK.
 Example
 
 
-
-RFID-Based Smart Student Arrival System
 
 In Education 
 
