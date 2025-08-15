@@ -1,8 +1,8 @@
-Internet of Things by Czarina Fombuena 
+\#Internet of Things by Czarina Fombuena 
 
 
 
-Purpose
+\##Purpose
 
 
 
@@ -16,11 +16,13 @@ The purpose of IoT is pretty simple. It is meant to make life easier, work more 
 
 Reference: IBM. (2023, May 12). What is the Internet of Things (IoT)? IBM THINK. Retrieved August 15, 2025  from https://www.ibm.com/think/topics/internet-of-things 
 
-Usage
+
+
+\##Usage
 
 
 
-In Education 
+\###In Education 
 
 IoT enhances education by making learning more accessible, interactive, and collaborative. It allows students and teachers to connect in real time, extending the classroom into digital spaces. Even after the pandemic, IoT continues to boost lesson engagement and streamline group projects. Importantly, it equips students with skills and tools they will need in a connected future.
 
@@ -30,17 +32,19 @@ Reference: Arduino. (2025). The role of the IoT in education. Arduino. Retrieved
 
 
 
-In IT
+\###In IT
 
 In the IT industry, IoT is widely used for smart infrastructure, predictive maintenance, supply chain monitoring, and data-driven decision-making. Businesses employ IoT systems to gather massive amounts of real-time data from devices, enabling automation and improving operational efficiency.
 
 Reference: IBM. (2023, May 12). What is the Internet of Things (IoT)? IBM THINK. Retrieved August 15, 2025, from https://www.ibm.com/think/topics/internet-of-things
 
-Example
+
+
+\##Example
 
 
 
-In Education 
+\###In Education 
 
 RFID-Based Smart Student Arrival System – Shenzhen Fuqiao Senior High School uses an NFC-enabled ID card system to automatically log student arrivals. The data is processed in real-time and displayed in a campus management interface for administrators, teachers, parents, and students. Beyond attendance tracking, it provides data insights, improves communication, and enhances administrative efficiency.
 
