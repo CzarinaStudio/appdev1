@@ -1,3 +1,4 @@
+//Arrays
 let foods = ["Matcha", "Chocolate", "Burgers"];
 foods.push("Sushi");
 foods.shift();
