@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DOM Refresher</title>
+</head>
+<body>
+  <button id="colorBtn">Change Background</button>
+  <p id="colorText"></p>
+  <p id="timeoutMessage"></p>
+
+  <script>
+    document.getElementById("colorBtn").addEventListener("click", function() {
+      let favColor = "Pink";
+      document.body.style.backgroundColor = favColor;
+      document.getElementById("colorText").innerText = "Czarina's favorite color is " + favColor;
+    });
+
+    setTimeout(() => {
+      document.getElementById("timeoutMessage").innerText = "This message appears after 2 seconds";
+    }, 2000);
+  </script>
+</body>
+</html>
