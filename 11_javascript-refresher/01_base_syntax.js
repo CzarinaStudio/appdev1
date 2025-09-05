@@ -1,3 +1,5 @@
+//Base Syntax
+
 console.log("Hello JavaScript");
 
 let myName = "Czarina";
