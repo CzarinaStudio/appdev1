@@ -1,5 +1,5 @@
 //Essential Features
-let hobbies = ["Writing", "Painting", "Reading stories"];
+let hobbies = ["Writing", "Painting", "Reading Stories"];
 hobbies.map(h => console.log(h));
 
 let student = { name: "Czarina", age: 20 };
