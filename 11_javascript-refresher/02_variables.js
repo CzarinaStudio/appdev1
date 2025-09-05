@@ -1,3 +1,4 @@
+//Variables
 let name = "Czarina";
 let age = 22;
 let isStudent = true;
