@@ -1,3 +1,4 @@
+//Essential Features
 let hobbies = ["Writing", "Painting", "Reading stories"];
 hobbies.map(h => console.log(h));
 
