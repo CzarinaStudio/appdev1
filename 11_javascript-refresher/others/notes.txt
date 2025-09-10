@@ -1,0 +1,120 @@
+vite September 6, 2025
+View JS, Angular JS, and many modern projects
+
+2 Major Parts 
+- Dev Server 
+There are languages that need programs to be able to run. 
+
+Some doesn't need a dev server suhc as JS, CSS, that browsers can read
+
+Laravel's dev server is PHP (php artisan serve)
+
+If Dev Server reads it translates the CSS, JS, and HTML to something readable to browsers
+
+Vite offers dev servers, 
+
+Virtual Hosr (No need to run or run php artisan serve)
+
+NPM RUN DEV - if you run this, it looks at the heart and soul which is the package .json
+
+hold dev commands 
+executes vite tools - create dev servers for us 
+
+so the react code can be copiled into something transform readale to the browser
+
+HMR - Hot Module Replacement
+
+Why Vite 
+
+2 ways to run react application 
+- create react app (command) (old way)
+why we dont use this anymore -> no way to create a modularized javascript 
+- ES module concept - not available before, are modern chuchu in js
+- Modules - certain actions that 
+- Primitive Javascript - Can't improt and exprot before, creates javascript needs to use bundling concept 
+- Bundling Concept - (magkakasama) concatinates, processes, that modules can run in a browser, all are isolated for login check outs and more 
+- Bundling Tool - pinagsasama lahat ng javascirpt into single file 
+
+Overtime may mga na discover na mga tools that helps with the problems
+
+Like webpacks roll pack, parcel that improves the experience with the fronent developers 
+
+3 that bundles the source code in a more improved way 
+- Webpack, roll up, and parcel 
+
+The problem is, the more ambitious the application is, the amount of JS is increasing dramatically 
+
+The amount of file increases and hundreds of markups and CSS, JS 
+
+Since it is so large, it starts with performace bottleneck, matagal na pag natay doon sa pag bubundle pa lang 
+
+If you make changes, irurun ulit, ibubundle na naman so hindi na kaya mag antay. The dilemma is that you have to wait 
+
+Vite aims to adress these issues (browsers updat (year and months))
+- Support - native ES modules (kahit wala ng tool, capable na basahin using native ES modules)
+- Maximizes the tools like Go that run in javascript in a compiled to run language 
+- Go - mas mabilis as compared to the other languages 
+
+Slow server 
+- one of the dilemmas, from a lot of javascript that runs
+- Bundles take time, if it starts, slow server start happens with the help of vite -> (2 categories)
+    - classifications - puts to the dependicies and the source code
+    to solve the slow serevr start
+
+Dependicies
+- Dinadala sa categories na category 
+- Pre bundle siwth the help of ES BUILD
+- Srouce code - contains liek JSX codes we see JSX int he app.jsx section
+    React transforms this to readeable to the browser (in HTML since this is the readable)
+
+- Semantics or the syntax needs to be learned 
+- Vite na bahala sa pag bundle (?)
+
+HMR - nagbabantay kung may edit na ginagawa (lumalabas lang yung kailangan)
+Create React Command 
+
+Tools are awarre in limitations to the bundles 
+nilipat yung iba sa memory mas mabilis 
+
+Why we need to bundle the production 
+if we bring the plain code, mabigat, it is not the best practice
+even if the native ESM is supported, you still need to compress to achieve the better perforamce or load times
+
+Vite - has an available bundle tools that can be used in prdouction 
+
+BUndle Mechanism - 
+
+4 commandsDev, BUILD, LINT, PREVIEW
+
+lumalaki numbers, potentially ma aapektuhan 
+
+build - to bundle the source code 
+
+- dist folder is the one used in the production like the bundles 
+- Dist na lang binasba and tinitingnan 
+- Security, scalability and optimized code, to make it optimized, bundle it 
+- in the past, its hard, now its easier with the help of vite 
+
+
+gitignore - hidni papansin, kahit mag add ng file, iignore 
+
+working directory - pula 
+staging - green 
+
+Generative AI - generates prompts and contents 
+
+AI has limitations - knowledge cut off (particular years trained like)
+
+
+
+
+Mastering Git 
+
+- Understanding Git History 
+- Three Key Commands (Collaboration at Scale, Accountability and Tracability, and Efficiency and Proffesionalism)
+
+3 Kinds of Reset
+- Soft, hard and mixed 
+
+
+
