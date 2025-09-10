@@ -1,3 +1,4 @@
 Base line
 Main branch update
 Realization: Rebase rewrites history to create a linear timeline, while merge preserves branching.
+Realization: Rebase rewrites history to create a linear timeline, while merge preserves branching.
