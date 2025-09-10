@@ -1,2 +1,3 @@
 Line 1
 Line 2
+Realization: After reset, the file and commit history returned to the earlier state, losing later commits.
