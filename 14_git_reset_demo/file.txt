@@ -1,1 +1,2 @@
 Line 1
+Realization: After reset, the file and history went back to that commit, removing later changes.
