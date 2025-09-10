@@ -1,0 +1,1 @@
+Realization: After revert, the commit history is preserved but a new commit is added that undoes the changes.
