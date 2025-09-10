@@ -1,0 +1,1 @@
+Realization: Micro commits provide clearer history than one macro commit that bundles unrelated changes.
