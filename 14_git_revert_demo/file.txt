@@ -1,3 +1,4 @@
 Line 1
 Line 2
 Realization: After revert, the commit history is preserved but a new commit is added that undoes the changes.
+Realization: After revert, the commit history is preserved but a new commit is added that undoes the changes.
