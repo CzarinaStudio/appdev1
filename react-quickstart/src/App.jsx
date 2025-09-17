@@ -1,15 +1,20 @@
-function Status({ isLoggedIn }) {
+function ItemList({ items }) {
   return (
-    <p>{isLoggedIn ? "✅ User is logged in" : "❌ User is not logged in"}</p>
+    <ul>
+      {items.map((item, index) => (
+        <li key={index}>{item}</li>
+      ))}
+    </ul>
   );
 }
 
 function App() {
+  const fruits = ["Apple", "Banana", "Orange", "Mango"];
+
   return (
     <div>
-      <h1>Conditional Rendering</h1>
-      <Status isLoggedIn={true} />
-      <Status isLoggedIn={false} />
+      <h1>Rendering Lists</h1>
+      <ItemList items={fruits} />
     </div>
   );
 }
