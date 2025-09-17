@@ -1,3 +1,5 @@
+
+import { useState } from "react";
 function Button({ count, onClick }) {
   return (
     <button onClick={onClick}>
@@ -7,7 +9,7 @@ function Button({ count, onClick }) {
 }
 
 function App() {
-  const [count, setCount] = React.useState(0);
+  const [count, setCount] = useState(0);
 
   function handleClick() {
     setCount(count + 1);
