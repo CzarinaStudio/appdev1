@@ -1,17 +1,15 @@
-function UserInfo({ name, age }) {
+function Status({ isLoggedIn }) {
   return (
-    <p>
-      User: <strong>{name}</strong>, Age: <strong>{age}</strong>
-    </p>
+    <p>{isLoggedIn ? "✅ User is logged in" : "❌ User is not logged in"}</p>
   );
 }
 
 function App() {
   return (
     <div>
-      <h1>Displaying Data</h1>
-      <p>The current year is: {new Date().getFullYear()}</p>
-      <UserInfo name="Alice" age={21} />
+      <h1>Conditional Rendering</h1>
+      <Status isLoggedIn={true} />
+      <Status isLoggedIn={false} />
     </div>
   );
 }
