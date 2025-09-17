@@ -1,11 +1,16 @@
+import { useState } from "react";
+
 function App() {
+  const [count, setCount] = useState(0);
+
   function handleClick() {
-    alert("You clicked me!");
+    setCount(count + 1);
   }
 
   return (
     <div>
-      <h1>Responding to Events</h1>
+      <h1>Updating the Screen with Hooks</h1>
+      <p>You clicked {count} times</p>
       <button onClick={handleClick}>
         Click me
       </button>
