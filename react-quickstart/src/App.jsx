@@ -1,7 +1,13 @@
-import { useState } from "react";
+function Button({ count, onClick }) {
+  return (
+    <button onClick={onClick}>
+      Clicked {count} times
+    </button>
+  );
+}
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = React.useState(0);
 
   function handleClick() {
     setCount(count + 1);
@@ -9,11 +15,9 @@ function App() {
 
   return (
     <div>
-      <h1>Updating the Screen with Hooks</h1>
-      <p>You clicked {count} times</p>
-      <button onClick={handleClick}>
-        Click me
-      </button>
+      <h1>Sharing Data Between Components</h1>
+      <Button count={count} onClick={handleClick} />
+      <Button count={count} onClick={handleClick} />
     </div>
   );
 }
