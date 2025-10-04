@@ -1,10 +1,11 @@
 import Header from "./components/Header";
+import Hero from "./components/Hero";
 
 function App() {
   return (
     <>
       <Header />
-      {/* We’ll add Hero next here */}
+      <Hero />
     </>
   );
 }
