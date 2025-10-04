@@ -1,29 +1,33 @@
 function Hero() {
   return (
-    <div className="welcome-area" id="welcome">
-      <div className="header-text">
-        <div className="container">
-          <div className="row">
-            {/* Left Text Content */}
-            <div className="left-text col-lg-6 col-md-6 col-sm-12 col-xs-12"
-                 data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-              <h1>
-                Get <strong>the best</strong> app for your business
-              </h1>
-              <p>
-                This is a professional looking HTML Bootstrap 4 template
-                for your business. Customize it easily as you want and
-                make it look stunning.
-              </p>
-              <a href="#about" className="main-button-slider">
-                Discover More
-              </a>
+    <div className="main-banner" id="welcome">
+      <div className="container">
+        <div className="row">
+          {/* Left side content */}
+          <div className="col-lg-6 align-self-center">
+            <div className="left-content show-up header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+              <div className="row">
+                <div className="col-lg-12">
+                  <h6>Welcome to Chain App Dev</h6>
+                  <h2>Best App Development Agency</h2>
+                  <p>
+                    Chain App Dev is a professional template with Bootstrap 5.0.2 CSS 
+                    for your app-related websites. This template is provided by TemplateMo.
+                  </p>
+                </div>
+                <div className="col-lg-12">
+                  <div className="border-first-button scroll-to-section">
+                    <a href="#services">Discover More</a>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
 
-            {/* Right Image Content */}
-            <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12"
-                 data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
-              <img src="assets/images/slider-icon.png" className="rounded img-fluid d-block mx-auto" alt="App" />
+          {/* Right side image */}
+          <div className="col-lg-6">
+            <div className="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">
+              <img src="/assets/slider-dec.png" alt="App Preview" />
             </div>
           </div>
         </div>

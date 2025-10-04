@@ -6,8 +6,8 @@ function Header() {
           <div className="col-12">
             <nav className="main-nav">
               {/* Logo */}
-              <a href="index.html" className="logo">
-                Chain App Dev
+              <a href="/" className="logo">
+                <img src="/assets/logo.png" alt="Chain App Dev" />
               </a>
 
               {/* Menu */}
@@ -17,7 +17,14 @@ function Header() {
                 <li><a href="#about">About</a></li>
                 <li><a href="#pricing">Pricing</a></li>
                 <li><a href="#newsletter">Newsletter</a></li>
+                <li>
+                  <div className="gradient-button">
+                    <a href="#get-started">Get Started</a>
+                  </div>
+                </li>
               </ul>
+
+              {/* Mobile menu trigger */}
               <a className="menu-trigger">
                 <span>Menu</span>
               </a>
