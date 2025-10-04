@@ -4,6 +4,7 @@ import Services from "./components/Services";
 import About from "./components/About";
 import Pricing from "./components/Pricing";
 import Testimonials from "./components/Testimonials";
+import Contact from "./components/Contacts";
 import Footer from "./components/Footer";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Pricing />
       <Testimonials />
+      <Contact />
       <Footer />
     </>
   );
