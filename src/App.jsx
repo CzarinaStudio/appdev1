@@ -1,9 +1,12 @@
-import RootComponent from './RootComponent';
+import { rootGreet } from './data/RootModule';
 
 function App() {
+  rootGreet();
+
   return (
     <div>
-      <RootComponent />
+      <h1>React App Running</h1>
+      <p>Check your browser console</p>
     </div>
   );
 }
