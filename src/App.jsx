@@ -1,28 +1,22 @@
-const person = {
-  name: 'Gregorio Y. Zara',
-  theme: {
-    backgroundColor: 'black',
-    color: 'pink'
-  }
-};
+import { Card } from './components/Cards.jsx';
+import { Avatar } from './components/Avatar.jsx';
 
-export default function TodoList() {
+export default function App() {
   return (
-    <div style={person.theme}>
-      <h1>{person.name}'s Todos</h1>
-      <img
-        className="avatar"
-        src="https://i.imgur.com/7vQD0fPs.jpg"
-        alt="Gregorio Y. Zara"
-      />
-      <ul>
-        <li>Improve the videophone</li>
-        <li>Prepare aeronautics lectures</li>
-        <li>Work on the alcohol-fuelled engine</li>
-      </ul>
-    </div>
+    <main>
+      <h1>Assignment 17: Describing the UI</h1>
+      <section>
+        <h2>Profile Card</h2>
+        <Card>
+          <Avatar
+            size={120}
+            person={{
+              name: 'Katsuko Saruhashi',
+              imageId: 'YfeOqp2'
+            }}
+          />
+        </Card>
+      </section>
+    </main>
   );
 }
-
-
-// iv. End of Code: How to use curly braces with JSX to access JavaScript functionality from your components
