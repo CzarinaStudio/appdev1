@@ -1,0 +1,21 @@
+.profile-pic {
+  width: 150px;         
+  border-radius: 10px;  
+  margin: 10px;          
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); 
+}
+
+section {
+  text-align: center;   
+}
+
+h1 {
+    font-family: 'Helvetica', sans-serif;
+    color: #0b040b;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Arial', sans-serif;
+    color: #464646;
+}
