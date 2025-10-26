@@ -10,6 +10,17 @@ function Profile() {
     />
   );
 }
-export default Profile; 
 
 // End for: i. How to write your first React component
+
+export default function App() {
+  return (
+    <section>
+      <h1>Assignment 17: Describing the UI</h1>
+      <h2>I. My Beloved Pet</h2>
+      <Profile />
+      <Profile />
+      <Profile />
+    </section>
+  );
+}
