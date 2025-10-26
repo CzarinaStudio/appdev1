@@ -1,26 +1,19 @@
-import "./App.css"; 
-
-//Code for: i. How to write your first React component
-function Profile() {
+export default function TodoList() {
   return (
-    <img
-      className="profile-pic" 
-      src="src\assets\Luna.jpg"
-      alt="luna"
-    />
+    <>
+      <h1>Hedy Lamarr's Todos</h1>
+      <img
+        src="https://i.imgur.com/yXOvdOSs.jpg"
+        alt="Hedy Lamarr"
+        className="photo"
+      />
+      <ul>
+        <li>Invent new traffic lights</li>
+        <li>Rehearse a movie scene</li>
+        <li>Improve spectrum technology</li>
+      </ul>
+    </>
   );
 }
 
-// End for: i. How to write your first React component
-
-export default function App() {
-  return (
-    <section>
-      <h1>Assignment 17: Describing the UI</h1>
-      <h2>I. My Beloved Pet</h2>
-      <Profile />
-      <Profile />
-      <Profile />
-    </section>
-  );
-}
+// ii. End of Code: How to add markup to JavaScript with JSX
