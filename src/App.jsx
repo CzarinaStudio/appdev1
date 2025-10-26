@@ -1,22 +1,23 @@
-import { Card } from './components/Cards.jsx';
-import { Avatar } from './components/Avatar.jsx';
+import {Item} from './components/Item.jsx';
 
-export default function App() {
+export default function PackingList() {
   return (
-    <main>
-      <h1>Assignment 17: Describing the UI</h1>
-      <section>
-        <h2>Profile Card</h2>
-        <Card>
-          <Avatar
-            size={120}
-            person={{
-              name: 'Katsuko Saruhashi',
-              imageId: 'YfeOqp2'
-            }}
-          />
-        </Card>
-      </section>
-    </main>
+    <section>
+      <h1>Sally Ride's Packing List</h1>
+      <ul>
+        <Item
+          isPacked={true}
+          name="Space suit"
+        />
+        <Item
+          isPacked={true}
+          name="Helmet with a golden leaf"
+        />
+        <Item
+          isPacked={false}
+          name="Photo of Tam"
+        />
+      </ul>
+    </section>
   );
 }
