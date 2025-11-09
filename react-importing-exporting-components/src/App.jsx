@@ -1,23 +1,11 @@
-// The root component file
-
-function Profile() {
+// Exporting and importing a component
+import Gallery from './Gallery.jsx';
+export default function App() {
   return (
-    <img
-      src="https://i.imgur.com/MK3eW3As.jpg"
-      alt="Katherine Johnson"
-    />
+    <div>
+      <Gallery />
+    </div>
   );
 }
+// Done with exporting and importing a component
 
-export default function Gallery() {
-  return (
-    <section>
-      <h1>Amazing scientists</h1>
-      <Profile />
-      <Profile />
-      <Profile />
-    </section>
-  );
-}
-
-// Done with the root component file
