@@ -1,11 +1,10 @@
-// Exporting and importing a component
+// Exporting and importing multiple components from the same file
 import Gallery from './Gallery.jsx';
+import { Profile } from './Gallery.jsx';
+
 export default function App() {
   return (
-    <div>
-      <Gallery />
-    </div>
+    <Profile />
   );
 }
-// Done with exporting and importing a component
-
+// Done with exporting and importing multiple components from the same file

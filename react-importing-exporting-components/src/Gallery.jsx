@@ -1,5 +1,5 @@
-// Exporting and importing a component
-function Profile() {
+// Exporting and importing multiple components from the same file
+export function Profile() {
   return (
     <img
       src="https://i.imgur.com/QIrZWGIs.jpg"
@@ -18,4 +18,4 @@ export default function Gallery() {
     </section>
   );
 }
-// Done with exporting and importing a component
+// Done with exporting and importing multiple components from the same file
