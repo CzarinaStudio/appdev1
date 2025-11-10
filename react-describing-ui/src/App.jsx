@@ -1,13 +1,5 @@
-// i. How to write your first React component
-
-function Profile() {
-  return (
-    <img
-      src="https://i.imgur.com/MK3eW3As.jpg"
-      alt="Katherine Johnson"
-    />
-  );
-}
+// ii. When and how to create multi-component files
+import Profile from './Profile.jsx';
 
 export default function Gallery() {
   return (
@@ -19,4 +11,3 @@ export default function Gallery() {
     </section>
   );
 }
-
