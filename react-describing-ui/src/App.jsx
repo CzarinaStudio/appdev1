@@ -1,38 +1,31 @@
-// v. How to configure components with props
-import { getImageUrl } from './utils.js'
-
-export default function Profile() {
+// vi. How to conditionally render components
+function Item({ name, isPacked }) {
   return (
-    <Card>
-      <Avatar
-        size={100}
-        person={{
-          name: 'Katsuko Saruhashi',
-          imageId: 'YfeOqp2'
-        }}
-      />
-    </Card>
+    <li className="item">
+      {name} {isPacked && '✅'}
+    </li>
   );
 }
 
-function Avatar({ person, size }) {
+export default function PackingList() {
   return (
-    <img
-      className="avatar"
-      src={getImageUrl(person)}
-      alt={person.name}
-      width={size}
-      height={size}
-    />
+    <section>
+      <h1>Sally Ride's Packing List</h1>
+      <ul>
+        <Item
+          isPacked={true}
+          name="Space suit"
+        />
+        <Item
+          isPacked={true}
+          name="Helmet with a golden leaf"
+        />
+        <Item
+          isPacked={false}
+          name="Photo of Tam"
+        />
+      </ul>
+    </section>
   );
 }
-
-function Card({ children }) {
-  return (
-    <div className="card">
-      {children}
-    </div>
-  );
-}
-
 
