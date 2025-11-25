@@ -1,7 +1,8 @@
-import UsersFetch from './UsersFetch.jsx'
+// import UsersFetch from './UsersFetch.jsx'
+import PostsFetchAsync from './PostsFetchAsync.jsx';
 
 export default function App() {
     return (
-        <UsersFetch />
+        <PostsFetchAsync />
     )
 }
